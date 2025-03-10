@@ -130,7 +130,6 @@ binary_sensor:
       - delayed_on_off: 50ms
 
 status_led:
-  pin:
-    number: ?
-    inverted: true
-```
+  pin: GPIO0
+
+    
