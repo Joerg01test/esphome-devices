@@ -15,13 +15,13 @@ Generation 3 of Shelly Plus i4.
 
 | Pin    | Function |
 | ------ | -------- |
-| ?      | LED      |
+| GPIO0  | LED      |
 | GPI03  | NTC      |
 | GPIO10 | Switch 1 |
 | GPIO7  | Switch 2 |
 | GPIO6  | Switch 3 |
 | GPIO5  | Switch 4 |
-
+| GPIO25 | Reset    |
 ## Programming Interface
 
 same as for Shelly Plus i4
