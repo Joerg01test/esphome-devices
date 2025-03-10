@@ -130,6 +130,14 @@ binary_sensor:
       - delayed_on_off: 50ms
 
 status_led:
-  pin: GPIO0
+  pin:
+    number: GPIO0
 
-    
+- platform: gpio
+  name: "Onboard Button"
+  pin:
+    number: GPIO25
+    inverted: yes
+    mode:
+      input: true
+      pullup: true
